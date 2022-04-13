@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  height: 543px;
+  width: 327px;
+  margin: auto 24px;
+  padding: 24px 25px 24px 24px;
+  background-color: #14253d;
+  border-radius: 15px;
+}
+
+.card__img {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.card__title {
+  margin-bottom: 12px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.card__description {
+  margin-bottom: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.card__data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card__eth,
+.card__date {
+  display: flex;
+  align-items: center;
+}
+
+.card__eth {
+  color: #00fff7;
+}
+
+.card__eth-icon {
+  margin-right: 6.48px;
+}
+
+.card__date {
+  font-weight: 300;
+}
+
+.card__date-icon {
+  margin-right: 7.7px;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #2f415b;
+  font-size: 15px;
+}
+
+.card__avatar {
+  width: 33px;
+  height: 33px;
+  margin-right: 16px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.card__author {
+  color: white;
+}
+
+.attribution {
+  width: 100vw;
+  position: fixed;
+  bottom: 15px;
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
+}

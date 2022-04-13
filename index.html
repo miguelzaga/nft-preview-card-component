@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="stylesheets/styles.css" />
 
     <link
@@ -23,28 +22,30 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <main>
-      <article>
+    <main class="main">
+      <article class="card">
         <figure>
-          <!-- image goes here -->
+          <img class="card__img" src="images/image-equilibrium.jpg" alt="" />
         </figure>
         <section>
-          <h1>Equilibrium #3429</h1>
-          <p>Our Equilibrium collection promotes balance and calm.</p>
-          <footer>
-            <div>
-              <!-- image goes here -->
+          <h1 class="card__title">Equilibrium #3429</h1>
+          <p class="card__description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <footer class="card__data">
+            <div class="card__eth">
+              <img class="card__eth-icon" src="images/icon-ethereum.svg" alt="" />
               0.041 ETH
             </div>
-            <div>
-              <!-- image goes here -->
+            <div class="card__date">
+              <img class="card__date-icon" src="images/icon-clock.svg" alt="" />
               3 days left
             </div>
           </footer>
         </section>
-        <footer>
-          <!-- image goes here -->
-          Creation of Jules Wyvern
+        <footer class="card__footer">
+          <img class="card__avatar" src="images/image-avatar.png" alt="" />
+          <span>Creation of <b class="card__author">Jules Wyvern</b></span>
         </footer>
       </article>
       <footer class="attribution">

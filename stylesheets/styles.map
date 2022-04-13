@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		"@use \"_reset\";\r\n\r\n$soft-blue: hsl(215, 51%, 70%);\r\n$cyan: hsl(178, 100%, 50%);\r\n$dark-blue-main: hsl(217, 54%, 11%);\r\n$dark-blue-card: hsl(216, 50%, 16%);\r\n$dark-blue-line: hsl(215, 32%, 27%);\r\n$white: hsl(0, 0%, 100%);\r\n$light-weight: 300;\r\n$normal-weight: 400;\r\n$bold-weight: 600;\r\n$font-family: \"Outfit\", sans-serif;\r\n\r\n* {\r\n  // box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-size: 18px;\r\n}\r\n\r\n.attribution {\r\n  font-size: 11px;\r\n  text-align: center;\r\n}\r\n.attribution a {\r\n  color: hsl(228, 45%, 44%);\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,IAAI,CAAJ,QAAI;;AAiBJ,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,IAAI,GAChB;;;AAED,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM,GACnB;;;AACD,AAAA,YAAY,CAAC,CAAC,CAAC;EACb,KAAK,EAAE,OAAkB,GAC1B"
+}
