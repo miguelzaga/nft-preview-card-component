@@ -74,8 +74,8 @@ body {
 }
 
 .card {
-  height: 543px;
-  width: 327px;
+  height: clamp(543px, 100%, 596px);
+  width: clamp(327px, 100%, 350px);
   margin: auto 24px;
   padding: 24px 25px 24px 24px;
   background-color: #14253d;
@@ -103,6 +103,7 @@ body {
 }
 
 .card__data {
+  font-size: 15px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
@@ -124,6 +125,7 @@ body {
 
 .card__date {
   font-weight: 300;
+  line-height: 19px;
 }
 
 .card__date-icon {
@@ -133,7 +135,7 @@ body {
 .card__footer {
   display: flex;
   align-items: center;
-  padding-top: 16px;
+  padding-top: 15px;
   border-top: 1px solid #2f415b;
   font-size: 15px;
 }
@@ -160,4 +162,27 @@ body {
 
 .attribution a {
   color: white;
+}
+
+@media (min-width: 425px) {
+  .card {
+    padding: 24px;
+  }
+  .card__title {
+    margin-bottom: 16px;
+  }
+  .card__description {
+    margin-bottom: 24px;
+  }
+  .card__data {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 20px;
+  }
+  .card__creation-of {
+    font-size: 16px;
+  }
+  .card__footer {
+    margin-bottom: 8px;
+  }
 }

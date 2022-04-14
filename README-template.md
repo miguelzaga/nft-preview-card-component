@@ -98,7 +98,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Sass Documentation](https://sass-lang.com/documentation) - It is my first time using Sass, it helped me to get started. 
 - [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) - This helped me to structure the HTML.
 - [BEM](http://getbem.com/naming/) - This helped me to be more structured in my CSS.
-
+- [mdn clamp()](https://developer.mozilla.org/en-US/docs/web/css/clamp) - Great way to make the an element responsive without using media queries. I used it in the card. Although, I still don't understand it that well.
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
