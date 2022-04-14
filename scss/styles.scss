@@ -26,12 +26,6 @@ body {
   color: $soft-blue;
 }
 
-// -- BEM approach --
-
-// - main
-// - card
-// - attribution
-
 @mixin transition {
   color: $cyan;
   transition: 0.3s ease-in;
