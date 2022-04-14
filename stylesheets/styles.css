@@ -74,6 +74,7 @@ body {
 }
 
 .card {
+  position: relative;
   height: clamp(543px, 100%, 596px);
   width: clamp(327px, 100%, 350px);
   margin: auto 24px;
@@ -82,10 +83,47 @@ body {
   border-radius: 15px;
 }
 
+.card__img-container {
+  position: relative;
+}
+
 .card__img {
+  display: block;
   width: 100%;
   margin-bottom: 24px;
   border-radius: 8px;
+}
+
+.card__overlay {
+  color: #00fff7;
+  transition: 0.3s ease-in;
+  z-index: 3;
+  position: absolute;
+  top: calc(50% - 24px);
+  right: calc(50% - 24px);
+  opacity: 0;
+}
+
+.card__overlay-bg {
+  color: #00fff7;
+  transition: 0.3s ease-in;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #00fff7;
+  opacity: 0;
+}
+
+.card__img-container:hover .card__overlay {
+  opacity: 1;
+}
+
+.card__img-container:hover .card__overlay-bg {
+  opacity: 0.5;
 }
 
 .card__title {
@@ -94,6 +132,11 @@ body {
   font-size: 22px;
   font-weight: 600;
   line-height: 28px;
+}
+
+.card__title:hover {
+  color: #00fff7;
+  transition: 0.3s ease-in;
 }
 
 .card__description {
@@ -152,6 +195,11 @@ body {
   color: white;
 }
 
+.card__author:hover {
+  color: #00fff7;
+  transition: 0.3s ease-in;
+}
+
 .attribution {
   width: 100vw;
   position: fixed;
@@ -162,6 +210,12 @@ body {
 
 .attribution a {
   color: white;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #00fff7;
+  transition: 0.3s ease-in;
 }
 
 @media (min-width: 425px) {

@@ -99,7 +99,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) - This helped me to structure the HTML.
 - [BEM](http://getbem.com/naming/) - This helped me to be more structured in my CSS.
 - [mdn clamp()](https://developer.mozilla.org/en-US/docs/web/css/clamp) - Great way to make the an element responsive without using media queries. I used it in the card. Although, I still don't understand it that well.
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [W3 Schools Fade in Overlay](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade) - It helped me get the hover on the image on desktop.
+- [freeCodeCamp Forum](https://forum.freecodecamp.org/t/how-to-change-opacity-of-child-element-without-affecting-background-and-parent-element-opacity/374395) - I help me layer properly the image layout. It was not working because the opacity of a parent affects the children, regardless if you override the property in the child.
+
 
 ## Author
 
